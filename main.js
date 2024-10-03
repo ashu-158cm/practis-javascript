@@ -1,18 +1,17 @@
-function changeColor(){
-    document.getElementById("text").style.color="red";
-}
-//document.getElementById("text").style.color="red";
-//これは、ドキュメントの中の「text」というIDを持っている
-//タグのスタイルの色を赤にして下さい。
-let count = 0 ;
-function increaseCount(){
+//クリックされたら確認する
 
-    count++;
-    document.getElementById("counter").innerText = count;
-    }
- function herasuCount(){
+function errorInput(){
+    console.log(document.getElementById("month"))
+    console.log(document.getElementById("day"))
 
-        count--;
-        document.getElementById("counter").innerText = count;
+    const month = document.getElementById("month").value;
+    const day = document.getElementById("day").value
+
+    console.log("month:",month,"day:",day)
 
 }
+
+//javascriptのプログラムとHTMLファイルはどこで対応しているか。
+//タグについているIDで紐づく
+//タグの中にある付加情報のことを属性という。
+//console.log()はｃ言語でいうとprintf():です

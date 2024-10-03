@@ -1,21 +1,15 @@
-
-<!doctype html>
-<html lang="ja">  
-<head>
-            
-            <meta charset="UTF-8" />
-        <link rel="stylesheet" href="18tanbe.css" />
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>生年月日入力</title>
+        <script src="main.js" defer></script>
     </head>
-                
-<body>
-    <h1>Hello World</h1>
-    <h2>こんにちは</h2>
-    <p id="text">色が変わるよ</p>
-    <button onclick="changeColor()">ぼたん</button>
 
-    <button onclick="increaseCount()">すうじがふえるぼたん</button>
-    <button onclick="herasuCount()">へらすぼたん</button>
-    <p id="counter"></p>
+<body>
+    <h1>生年月日の入力</h1>
+    <input id="mpnth" placeholder="月を入力してください">
+    <input id="day" placeholder="日を入力してください">
+    <button onclick="errorInput() ">入力</button>
 </body>
-<script src="main.js"></script>
 </html>
